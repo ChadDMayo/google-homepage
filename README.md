@@ -1,0 +1,1 @@
+This project is meant to imitate the Google page
