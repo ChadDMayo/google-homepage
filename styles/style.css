@@ -1,35 +1,97 @@
 html {
-    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
-    font-family: 'Dancing Script', cursive; /* this should be the rest of the output you got from Google fonts */
-    background-color: #0d1818;
-    color: white;
-  }
+  font-size: 13px; 
+  background-color: white;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
 
-  h1 {
-    margin: 0;
-    padding: 20px 0;    
-    text-shadow: 3px 3px 1px black;
-    font-size: 60px;
-    text-align: center;
-  }
-  
-  p, li {
-    font-size: 16px;    
-    line-height: 2;
-    letter-spacing: 1px;
-  }
+a {
+  color: black;
+  text-decoration: none;
+}
 
-  body {
-    width: 800px;
-    margin: 0 auto;
-    background-color: #223e63;
-    padding: 0 20px 20px 20px;
-    border: 5px solid whitesmoke;
-  }
+a:hover {
+  text-decoration: underline;
+}
 
-  img {
-    display: block;
-    margin: 0 auto;
-    max-width: 700px;
-    height: auto;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+  text-align: center justify;
+  padding-left: 15px;
+}
+
+.navbar {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  height: 32px;
+  line-height: 32px;
+  width: 100%;
+}
+
+.nav-img {
+  height: 32px;
+  width: auto;
+}
+
+.nav-left {
+  float: left;
+  padding-left: 15px;
+}
+
+.nav-right {
+  float: right;
+  padding-right: 15px;
+}
+
+.logo-container {
+  height: 193px;
+  display: auto;
+  margin-top: 89px;
+}
+
+#logo {
+  padding-top: 109px;
+  height: 92;
+  width: 272;
+}
+
+#search-bar {
+  padding-top: 24px;
+  display: auto;
+}
+
+#footer-container {
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer-link {
+  color: #5f6368;
+  line-height: 40px;
+}
+.footer-padding-left {
+  float: left;
+  padding-left: 27px;
+}
+
+.footer-padding-right {
+  float: right;
+  padding-right: 27px;
+}
+
+
+
